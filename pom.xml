@@ -14,5 +14,19 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>	
+      <groupId>jfreechart</groupId>
+      <artifactId>jfreechart-1.0.19</artifactId>
+      <version>1.0.13</version>
+      <scope>system</scope>
+	  <systemPath>${basedir}\lib\jfreechart-1.0.19.jar</systemPath>
+    </dependency>
+	<!-- https://mvnrepository.com/artifact/org.jfree/jcommon -->
+	<dependency>
+		<groupId>org.jfree</groupId>
+		<artifactId>jcommon</artifactId>
+		<version>1.0.23</version>
+	</dependency>
+
   </dependencies>
 </project>
